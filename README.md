@@ -15,8 +15,7 @@
 - [Real-time Ticket Booking System](#) – Web-based booking simulation  
 - [Streaming Platform](#) – Prototype for real-time RTMP streaming  
 
-## 📊 GitHub Stats
-![Abhishek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhishekchauhan1365&show_icons=true&theme=default)
+
 
 ## 📫 Connect with Me
 - LinkedIn: [linkedin.com/in/abhishekchauhan1365](https://linkedin.com/in/abhishekchauhan1365)
