@@ -1,9 +1,23 @@
-<h1 align="center">Hi 👋, I'm Abhishek Singh Chauhan</h1>
-<h3 align="center">A passionate Full Stack Web Developer From India.</h3>
+# Hi, I'm Abhishek Singh Chauhan 👋
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+🎓 3rd year B.Tech CSE student at Lovely Professional University  
+💻 Exploring C++, Data Structures & Algorithms, Operating Systems, Networking  
+🌱 Currently contributing to open source (GSSoC 2025 aspirant)  
+🚀 Building projects in Full Stack, IoT, and real-time systems  
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+## 🔧 Tech Stack
+- **Languages**: C++, Python, JavaScript  
+- **Web**: HTML, CSS, React, Node.js, MongoDB, MySQL  
+- **Other**: Git, GitHub, Linux, IoT prototyping  
+
+## 📂 Projects
+- [IoT Agriculture System](#) – Smart farming prototype with sensors  
+- [Real-time Ticket Booking System](#) – Web-based booking simulation  
+- [Streaming Platform](#) – Prototype for real-time RTMP streaming  
+
+## 📊 GitHub Stats
+![Abhishek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhishekchauhan1365&show_icons=true&theme=default)
+
+## 📫 Connect with Me
+- LinkedIn: [linkedin.com/in/abhishekchauhan1365](https://linkedin.com/in/abhishekchauhan1365)
+- Email: abhishekchauhan1365@gmail.com
