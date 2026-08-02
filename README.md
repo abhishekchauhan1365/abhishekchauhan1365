@@ -1,6 +1,10 @@
 <h1 align="center">Hi there, I'm Abhishek Chauhan! <img src="https://media.giphy.com/media/hvRJCLFzcasr14yMyH/giphy.gif" width="28"></h1>
 
-<h3 align="center">A passionate Full Stack Developer crafting seamless digital experiences</h3>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Crafting+Seamless+Digital+Experiences;Always+Learning+New+Technologies;Open+Source+Contributor" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank">
@@ -19,7 +23,7 @@
 - 🌱 I’m currently learning **Advanced Web Patterns and System Design**
 - 👯 I’m looking to collaborate on **Open Source projects**
 - 💬 Ask me about **JavaScript, React, Node.js, and Java**
-- 📫 How to reach me: **sahojitxd26@gmail.com**
+- 📫 How to reach me: **abhishekchauhan1365@gmail.com**
 
 ---
 
