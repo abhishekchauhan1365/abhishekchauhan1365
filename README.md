@@ -66,16 +66,12 @@ const abhishekChauhan = {
 ### 📊 GitHub Analytics Dashboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abhishekchauhan1365&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekchauhan1365&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=abhishekchauhan1365&theme=tokyonight&hide_border=true" alt="Contribution Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhishekchauhan1365&theme=tokyo-night&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=abhishekchauhan1365&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=abhishekchauhan1365&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
