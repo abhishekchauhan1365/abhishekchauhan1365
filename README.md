@@ -4,7 +4,7 @@
 
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:111827,100:1e293b&height=220&section=header&text=Abhishek%20Singh%20Chauhan&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20%26%20Distributed%20Systems&descSize=16&descAlignY=62" width="100%" alt="Abhishek Singh Chauhan" />
+  <img src="https://raw.githubusercontent.com/abhishekchauhan1365/abhishekchauhan1365/main/assets/header.svg" width="100%" alt="Abhishek Singh Chauhan" />
 </p>
 
 <!-- Quick Action Badges -->
@@ -25,7 +25,7 @@
     <img src="https://img.shields.io/badge/Resume-PDF-2563EB?style=flat&logo=googledocs&logoColor=white" alt="Resume" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=abhishekchauhan1365&color=38bdf8&style=flat&label=Views" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/LeetCode-400%2B_Solved-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode 400+ Solved" />
 </p>
 
 <!-- Dynamic Multi-Line Typewriter -->

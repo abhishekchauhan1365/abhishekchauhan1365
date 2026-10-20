@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Subtle Wave Accents -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .name-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      letter-spacing: 3px;
+      fill: #ffffff;
+    }
+    .role-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      letter-spacing: 2.5px;
+      fill: #94a3b8;
+    }
+    .tag-text {
+      font-family: 'SF Mono', Monaco, Menlo, 'Fira Code', Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Base Card Background with subtle rounded corners and clean border -->
+  <rect width="1200" height="300" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Technical Grid Overlay -->
+  <rect width="1200" height="300" rx="12" fill="url(#grid)" />
+
+  <!-- Glow Sphere (Top Left) -->
+  <circle cx="200" cy="50" r="180" fill="url(#glow-grad)" />
+  <circle cx="1000" cy="250" r="160" fill="url(#glow-grad)" />
+
+  <!-- Smooth Wave Bottom Accent -->
+  <path d="M 0 260 Q 300 230 600 265 T 1200 245 L 1200 300 L 0 300 Z" fill="#0284c7" fill-opacity="0.08" />
+  <path d="M 0 275 Q 350 250 700 280 T 1200 265 L 1200 300 L 0 300 Z" fill="url(#accent-cyan)" fill-opacity="0.25" />
+
+  <!-- Top Accent Horizontal Bar -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent-cyan)" />
+
+  <!-- Main Engineer Title -->
+  <text x="600" y="115" text-anchor="middle" class="name-title">ABHISHEK SINGH CHAUHAN</text>
+
+  <!-- Subtitle Role -->
+  <text x="600" y="165" text-anchor="middle" class="role-title">SOFTWARE ENGINEER &bull; FULL-STACK &bull; DISTRIBUTED SYSTEMS</text>
+
+  <!-- Tag Pills Group (Centered) -->
+  <g transform="translate(600, 215)">
+    <!-- Pill 1: Next.js / React -->
+    <rect x="-370" y="0" width="160" height="32" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="-290" y="21" text-anchor="middle" class="tag-text">TypeScript &bull; React</text>
+
+    <!-- Pill 2: Node.js / C++ -->
+    <rect x="-195" y="0" width="180" height="32" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="-105" y="21" text-anchor="middle" class="tag-text">Next.js &bull; Node.js</text>
+
+    <!-- Pill 3: Systems & C++ -->
+    <rect x="0" y="0" width="170" height="32" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="85" y="21" text-anchor="middle" class="tag-text">C++ &bull; Systems</text>
+
+    <!-- Pill 4: Cloud & DevOps -->
+    <rect x="185" y="0" width="185" height="32" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="277" y="21" text-anchor="middle" class="tag-text">Cloud Architecture</text>
+  </g>
+</svg>
