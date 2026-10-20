@@ -88,6 +88,7 @@
 
 | Project | Description | Architecture / Stack | Links |
 | :--- | :--- | :--- | :--- |
+| **A.C.R.E.** | Autonomous Crash Remediation Engine — npm-distributed daemon & CLI for real-time incident monitoring, AI root-cause diagnosis, and risk-gated remediation. | `Node.js` `TypeScript` `Groq AI` `CLI` `npm` | [npm ↗](https://www.npmjs.com/package/acre-ai) &nbsp;·&nbsp; [GitHub →](https://github.com/abhishekchauhan1365/A.C.R.E) |
 | **AI-Analyzer** | AI-driven code telemetry and dataset analysis platform providing automated structural anomaly detection and visual insights. | `TypeScript` `Next.js` `AI/LLM` `TailwindCSS` | [Live Demo ↗](https://ai-analyzer-eta-murex.vercel.app) &nbsp;·&nbsp; [GitHub →](https://github.com/abhishekchauhan1365/AI-Analyzer) |
 | **Hospital Scheduler** | Concurrency-safe healthcare appointment booking platform featuring doctor schedule management and multi-step clinician workflows. | `TypeScript` `React` `TailwindCSS` `Vercel` | [Live Demo ↗](https://hospital-scheduler-app.vercel.app) &nbsp;·&nbsp; [GitHub →](https://github.com/abhishekchauhan1365/hospital-scheduler-app) |
 | **Multi-Tenant SaaS Billing** | Enterprise subscription and billing infrastructure with schema-level tenant isolation, recurring usage metering, and webhook pipelines. | `JavaScript` `Node.js` `Express` `PostgreSQL` | [GitHub →](https://github.com/abhishekchauhan1365/Multi-Tenant-SaaS-Billing-Platform) |
