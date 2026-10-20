@@ -35,6 +35,15 @@
   </a>
 </p>
 
+<!-- Key Engineering Metrics Counter Strip -->
+<div align="center">
+
+| 400+ | 6+ | 94% | 1 |
+| :---: | :---: | :---: | :---: |
+| **DSA Problems Solved**<br/><sub>LeetCode (Mediums & Hards)</sub> | **Production Repositories**<br/><sub>Next.js, React, Node, C++</sub> | **Test Coverage**<br/><sub>CAS Engine & C++17 Unit Tests</sub> | **Published Package**<br/><sub>npm: `acre-ai`</sub> |
+
+</div>
+
 <br/>
 
 <!-- Terminal HUD UI -->
@@ -42,7 +51,7 @@
   <tr>
     <td bgcolor="#0d1117" style="border: 1px solid #30363d; border-radius: 6px; padding: 16px;">
       <p align="left" style="margin: 0; padding-bottom: 8px; font-family: 'Fira Code', monospace; color: #8b949e; font-size: 13px;">
-        <span style="color: #ff5f56;">●</span> <span style="color: #ffbd2e;">●</span> <span style="color: #27c93f;">●</span> &nbsp; <b>abhishek@engineer-station:~$</b> cat profile.json
+        <span style="color: #ff5f56;">●</span> <span style="color: #ffbd2e;">●</span> <span style="color: #27c93f;">●</span> &nbsp; <b>abhishek@engineer-station:~$</b> cat manifest.json
       </p>
       <pre align="left" style="margin: 0; font-family: 'Fira Code', monospace; font-size: 13px; color: #c9d1d9; line-height: 1.5;">
 {
@@ -64,6 +73,29 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+---
+
+### System Architecture & Engineering Focus
+
+```mermaid
+flowchart LR
+    subgraph Client ["Client & Telemetry"]
+        A[Next.js / React Apps] -->|REST / WebSocket| B(API Gateway / Auth)
+        L[Log & Metric Collectors] -->|Event Stream| B
+    end
+    subgraph Engine ["Processing & Services"]
+        B --> C{Worker Services}
+        C -->|Inference| D[AI / Groq LLM Engine]
+        C -->|Atomic Counter| E[(Redis Cache / Rate Limiter)]
+    end
+    subgraph Storage ["Persistence Layer"]
+        C --> F[(PostgreSQL / MongoDB)]
+        C --> G[(CAS Object Storage / S3)]
+    end
+```
 
 <br/>
 
@@ -95,6 +127,26 @@
 | **MiniGit** | Custom version control system implemented in C++ from scratch, featuring SHA-1 content hashing, staging index, commit trees, and blob storage. | `C++` `Systems Programming` `Data Structures` | [GitHub →](https://github.com/abhishekchauhan1365/MiniGit) |
 | **Real-Time Geotracking** | Low-latency geospatial telemetry streaming engine maintaining persistent bi-directional WebSocket connections and reactive map rendering. | `Node.js` `WebSockets` `Leaflet` `Express` | [GitHub →](https://github.com/abhishekchauhan1365/Real-time-Tracking) |
 | **Portfolio Platform** | Engineering portfolio featuring custom canvas particle mesh rendering, physics-based cursor interactions, and responsive design. | `Next.js 15` `TypeScript` `Framer Motion` | [Live Demo ↗](https://portfolio-coral-two-b0w1doh8q4.vercel.app) &nbsp;·&nbsp; [GitHub →](https://github.com/abhishekchauhan1365/portfolio) |
+
+<br/>
+
+<details>
+  <summary><b>Technical Deep-Dives & Architectural Case Studies</b></summary>
+  <br/>
+
+  #### 1. A.C.R.E. (Autonomous Crash Remediation Engine)
+  - **Incident Ingestion**: Cross-platform log tailing daemon monitors file descriptors with minimal CPU overhead.
+  - **Risk-Gated Patch Execution**: AI recommendations are categorized into *Low*, *Medium*, and *High* risk tiers. Only validated commands execute autonomously, while source patches require explicit human review and dry-run validation with automatic rollback checkpoints.
+
+  #### 2. Multi-Tenant SaaS Metering & Billing
+  - **Atomic Usage Tracking**: Employs Redis `INCR` commands to eliminate race conditions under concurrent client requests.
+  - **Idempotent Invoicing**: Billing rollups utilize MongoDB compound index constraints (`tenantId`, `periodStart`, `periodEnd`), guaranteeing that invoices cannot be generated twice during billing cron cycles.
+
+  #### 3. MiniGit (C++17 Content-Addressable Storage)
+  - **Fan-Out CAS Indexing**: Implements `.mgit/objects/xx/xxxx...` directory sharding to maintain $O(1)$ filesystem retrieval across 10,000+ stored blobs.
+  - **Validation & Quality**: Tested with **150+ automated unit tests** using Google Test, achieving **94% statement and branch coverage**.
+
+</details>
 
 <br/>
 
