@@ -4,7 +4,7 @@
 
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abhishekchauhan1365/abhishekchauhan1365/main/assets/header.svg" width="100%" alt="Abhishek Singh Chauhan" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,24,36,0&height=220&section=header&text=ABHISHEK%20SINGH%20CHAUHAN&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Software%20Engineer%20%7C%20Distributed%20Systems&descSize=16&descAlignY=64" width="100%" alt="Abhishek Singh Chauhan" />
 </p>
 
 <!-- Quick Action Badges -->
